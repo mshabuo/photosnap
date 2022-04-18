@@ -109,43 +109,6 @@ export default function Articles() {
             </div>
           )
         })}
-        {/* 
-        <div className="Article-Four-Image1-Container">
-          <div className="Article-Contents">
-            <h5>The Mountains</h5>
-            <p style={{ "font-size": "10px" }}>by John Appleseed</p>
-            <div>
-              <p>READ STORY</p>
-            </div>
-          </div>
-        </div>
-        <div className="Article-Four-Image2-Container">
-          <div>
-            <h6>Sunset Cityscapes</h6>
-            <p>by Benjamin Cruz</p>
-            <div>
-              <p>READ STORY</p>
-            </div>
-          </div>
-        </div>
-        <div className="Article-Four-Image3-Container">
-          <div>
-            <h6>18 Days Voyage</h6>
-            <p>by Alexel Borodin</p>
-            <div>
-              <p>READ STORY</p>
-            </div>
-          </div>
-        </div>
-        <div className="Article-Four-Image4-Container">
-          <div className="Article-Contents">
-            <h6>Architecturals</h6>
-            <p>by Samantha Brooke</p>
-            <div>
-              <p>READ STORY</p>
-            </div>
-          </div>
-        </div> */}
       </div>
     </>
   )
