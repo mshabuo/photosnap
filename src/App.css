@@ -1,0 +1,310 @@
+.App {
+  height: 100%;
+  width: 100%;
+
+  margin: 0%;
+}
+.body {
+  width: 100%;
+}
+.App-logo {
+  width: 80%;
+  height: 20%;
+  margin: 0%;
+}
+
+.NavigationBar img {
+  display: flex;
+  height: 20%;
+  flex-direction: start;
+  margin-left: 10%;
+  margin: 2%;
+}
+
+.Article-Link-White {
+  text-decoration: none;
+  color: white;
+}
+.Article-Link-Black {
+  text-decoration: none;
+  color: black;
+}
+
+.NavigationBar-list {
+  display: flex;
+  align-items: flex-start;
+  width: 50%;
+  flex-direction: row;
+  padding-left: 10%;
+  padding-top: 1%;
+}
+.NavigationBar-list li {
+  display: inline;
+  padding-right: 15%;
+  font-weight: bold;
+  color: black;
+  align-items: center;
+  list-style: none;
+  margin-top: 0%;
+}
+.NavigationBar-list li:hover {
+  color: grey;
+}
+.NavigationBar-list a {
+  text-decoration: none;
+}
+.NavigationBar-list a:visited {
+  text-decoration: none;
+  color: grey;
+}
+
+.NavigationBar-Invite {
+  font-size: 10px;
+  align-self: end;
+  border-style: none;
+  align-self: center;
+  background-color: black;
+  color: #ffffff;
+  padding: 12px;
+}
+
+.NavigationBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 2%;
+  background-color: white;
+  align-items: space-around;
+  overflow: auto;
+}
+
+.Article-One-Container {
+  display: flex;
+  width: 100%;
+  height: 20%;
+  flex-direction: row;
+}
+.Article-One-Image {
+  width: 60%;
+  height: 100%;
+  float: right;
+  object-fit: cover;
+}
+
+.Article-One h2 {
+  font-size: 20px;
+  color: white;
+  width: 100%;
+}
+.Article-One p {
+  font-size: 8px;
+  color: grey;
+  width: 100%;
+  margin-top: 30%;
+  float: left;
+}
+.Article-One h6 {
+  font-size: 8px;
+  color: white;
+  width: 100%;
+  margin-top: 30%;
+  float: left;
+  margin-bottom: 1%;
+}
+.Article-One-Item {
+  background-color: black;
+  color: white;
+  padding: 8%;
+}
+
+.Article-One-Invite {
+  background-color: white;
+  color: black;
+  padding: 8%;
+}
+
+.Article-One-Invite h2 {
+  font-size: 32px;
+}
+.Article-One-Item p {
+  font-size: 12px;
+  color: grey;
+}
+.Article-One-Item h2 {
+  font-size: 32px;
+}
+.Article-One-Item p {
+  font-size: 12px;
+  color: grey;
+}
+
+.Article-Four-Container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  color: white;
+  min-height: 450px;
+}
+
+.Article-Four-Images-Container {
+  flex-direction: column-reverse;
+  background-image: url("https://ice-nas.fra1.digitaloceanspaces.com/development/play/mountains.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  display: flex;
+  width: 25%;
+}
+.Article-Four-Text {
+  border-top: white;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: grey;
+  font-size: 10px;
+  color: white;
+  font-weight: bold;
+}
+.Article-Contents {
+  margin: 25px;
+}
+
+.Article-Four-Image-Container h6 {
+  position: absolute;
+  margin-top: 20%;
+}
+.Footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: black;
+  overflow: auto;
+}
+.Footer img {
+  display: flex;
+  height: 20%;
+  flex-direction: start;
+  margin: 10%;
+}
+.Footer-Navigation {
+  display: flex;
+  align-items: flex-start;
+  width: 1%;
+  margin-top: 40px;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-top: 1%;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.Footer-Navigation ul,
+li {
+  flex-direction: column;
+  list-style: none;
+
+  margin-left: 30%;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  gap: 10%;
+}
+
+.Footer-Button {
+  color: white;
+  border-style: none;
+  background-color: inherit;
+  font-size: 8px;
+  font-weight: bold;
+  flex-direction: row;
+  margin-left: 30px;
+  text-align: left;
+}
+
+.Article-Arrow {
+  width: 300px;
+}
+.Article-Arrow-White {
+  width: 300px;
+  color: white;
+}
+
+.Article-One-Image-Container {
+  float: right;
+  width: 60%;
+  height: 25%;
+}
+
+.Social-Banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding-top: 10%;
+}
+
+.Social-Banner img {
+  padding-bottom: 1%;
+}
+
+.Social-Banner-Items p {
+  color: grey;
+  font-size: 12px;
+  text-align: center;
+  margin: 10%;
+}
+.Social-Banner-Items h6 {
+  color: black;
+  font-size: 12px;
+  text-align: center;
+  margin: 10%;
+}
+.Social-Banner-Items img {
+  justify-items: center;
+  width: 20%;
+  padding-left: 40%;
+}
+
+.Social-Banner-Items-Mid {
+  margin-top: 8%;
+}
+.Footer-Copyright-Button-Container {
+  display: flex;
+  width: 15%;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}
+
+.Footer-Navigation {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2px;
+}
+
+.Footer-Copyright {
+  display: flex;
+  color: grey;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  font-size: 10px;
+}
+
+.Footer-Logo {
+  display: flex;
+  height: 20%;
+  border-style: solid;
+}
+
+.Footer-Navigation-box {
+  margin-top: 22px;
+  margin-right: 40%;
+}
+
+@media (max-width: 1200px) {
+  /* This is to house the styling for tablet devices */
+}
+
+@media (max-device-width: 600px) {
+  /* This is to house the styling for mobile devices */
+} ;
